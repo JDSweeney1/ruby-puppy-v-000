@@ -1,2 +1,3 @@
 class Dog
+  @@all = {}
 end
