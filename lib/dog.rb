@@ -13,6 +13,6 @@ class Dog
   end
 
   def self.all
-    @@all.collect {|dog| dog.name}
+    puts @@all.collect {|dog| dog.name}
   end
 end
